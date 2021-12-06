@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "django-tutorial"
+version = "0.1.0"
+description = "Oficial Django tutorial Poll app"
+authors = ["AABur <aabur@mail.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+Django = "^3.2"
+
+[tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.15.3"
+flake8-pytest-style = "flake8-django"
+flake8-django = "^1.1.2"
+flake8-colors = "^0.1.9"
+pyformat = "^0.7"
+add-trailing-comma = "^2.2.1"
+isort = "^5.10.1"
+pytest = "^6.2.5"
+pytest-django = "^4.5.1"
+pytest-cov = "^3.0.0"
+pytest-html = "^3.1.1"
+pytest-sugar = "^0.9.4"
+pytest-clarity = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
